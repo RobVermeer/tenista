@@ -191,4 +191,18 @@ function rm_display_name() {
 	echo $current_user->display_name;
 }
 
+function has_children() {
+	global $post;
+	
+	if( isset($post->post_parent) && $post->post_parent )
+		return true;
+	
+	$children = get_pages(array('child_of' => $post->ID));
+	
+	if( count( $children ) != 0 )
+		return true;
+		
+	return false;
+}
+
 ?>
