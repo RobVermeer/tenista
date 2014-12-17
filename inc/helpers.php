@@ -205,4 +205,15 @@ function has_children() {
 	return false;
 }
 
+function get_the_children() {
+	global $post;
+	
+	if( ! has_children() )
+		return;
+		
+	$page_id = (isset($post->post_parent) && $post->post_parent ? $post->post_parent : $post->ID);
+	
+	return get_pages(array('child_of' => $page_id));
+}
+
 ?>

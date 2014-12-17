@@ -46,6 +46,19 @@
 }
 /* End Footer */
 
+/* Page */
+.page-nav ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.entry {
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+/* End Page */
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
