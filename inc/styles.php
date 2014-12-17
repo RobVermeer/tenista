@@ -3,10 +3,11 @@
 function register_styles() {
 	$deps = array();
 	
-	/* Add bootstrap stylesheet *
+	/* Add bootstrap stylesheet */
 	$url = get_bloginfo('stylesheet_directory') . '/css/bootstrap.min.css';
 	$file = get_template_directory() . '/css/bootstrap.min.css';
 	wp_enqueue_style('bootstrap', $url, $deps, filemtime($file));
+	$deps[] = 'bootstrap';
 	
 	/* Add theme stylesheet */
 	$url = get_bloginfo('stylesheet_directory') . '/css/style.css';

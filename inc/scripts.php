@@ -14,7 +14,7 @@ function register_scripts() {
 	wp_enqueue_script('jquery', "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null, true);
 	$deps[] = 'jquery';
 
-	/* Add Bootstrap javascript *
+	/* Add Bootstrap javascript */
 	$url = get_bloginfo('stylesheet_directory') . '/js/bootstrap.min.js';
 	$file = get_template_directory() . '/js/bootstrap.min.js';
 	wp_enqueue_script('bootstrap-js', $url, $deps, filemtime($file), true);
