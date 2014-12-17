@@ -21,4 +21,5 @@
 <body <?php body_class("no-js"); ?>>
 	<?php do_action('after_body'); ?>
 	
-	<?php get_template_part('partials/header', 'nav'); ?>
+	<div class="container">
+		<?php get_template_part('partials/header', 'nav'); ?>
