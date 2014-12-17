@@ -7,8 +7,8 @@ include(RM_INC_PATH . "helpers.php");
 
 /* Priority Medium */
 include(RM_INC_PATH . "googleanalytics.php");
-//include(RM_INC_PATH . "opengraph.php");
-//include(RM_INC_PATH . "seo.php");
+include(RM_INC_PATH . "opengraph.php");
+include(RM_INC_PATH . "seo.php");
 
 /* Priority low */
 //include(RM_INC_PATH . "wp-cleanup.php");
