@@ -20,13 +20,11 @@ function register_scripts() {
 	wp_enqueue_script('bootstrap-js', $url, $deps, filemtime($file), true);
 	$deps[] = 'bootstrap-js';
 
-	/* Add functions javascript *
+	/* Add functions javascript */
 	$deps = array('jquery');
 	$url = get_bloginfo('stylesheet_directory') . '/js/functions.js';
 	$file = get_template_directory() . '/js/functions.js';
 	wp_enqueue_script('functions-js', $url, $deps, filemtime($file), true);
-	
-	/**/
 }
 add_action('wp_enqueue_scripts', 'register_scripts');
 
