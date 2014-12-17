@@ -3,7 +3,7 @@
 define('RM_INC_PATH', plugin_dir_path(__FILE__));
 
 /* Priority HIGH */
-//include(RM_INC_PATH . "helpers.php");
+include(RM_INC_PATH . "helpers.php");
 
 /* Priority Medium */
 //include(RM_INC_PATH . "googleanalytics.php");
