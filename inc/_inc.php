@@ -13,7 +13,7 @@ include(RM_INC_PATH . "seo.php");
 /* Priority low */
 include(RM_INC_PATH . "wp-cleanup.php");
 include(RM_INC_PATH . "images.php");
-//include(RM_INC_PATH . "menus.php");
+include(RM_INC_PATH . "menus.php");
 //include(RM_INC_PATH . "scripts.php");
 //include(RM_INC_PATH . "styles.php");
 //include(RM_INC_PATH . "ajax.php");
