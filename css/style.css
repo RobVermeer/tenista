@@ -99,6 +99,10 @@
 	max-width: 100%;
 	height: auto;
 }
+
+.carousel {
+	margin-bottom: 40px;
+}
 /* End Home */
 
 /* Small devices (tablets, 768px and up) */
