@@ -66,6 +66,22 @@
 }
 /* End Page */
 
+/* News */
+.news-archive {
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+
+.sidebar ul {
+	padding: 0;
+	list-style: none;
+}
+
+.widget {
+	margin-bottom: 40px;
+}
+/* News */
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
