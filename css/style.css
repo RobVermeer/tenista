@@ -76,6 +76,11 @@
 	margin-bottom: 40px;
 }
 
+.sidebar {
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+
 .sidebar ul {
 	padding: 0;
 	list-style: none;
@@ -85,6 +90,16 @@
 	margin-bottom: 40px;
 }
 /* News */
+
+/* Home */
+.sidebar .news-item {
+	margin-bottom: 20px;
+}
+.sidebar img {
+	max-width: 100%;
+	height: auto;
+}
+/* End Home */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
