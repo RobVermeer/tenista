@@ -24,7 +24,7 @@ include(RM_INC_PATH . "pagination.php");
 
 /* Admin area */
 if( is_admin() ) {
-	//include(RM_INC_PATH . "metaboxes.php");
+	include(RM_INC_PATH . "metaboxes.php");
 }
 
 
