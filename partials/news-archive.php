@@ -5,4 +5,10 @@
 			<?php the_content(__('Lees meer', 'rm')); ?>
 		</article>
 	<?php endwhile; ?>
+	<?php $pagination = paginate_links(get_pagination()); ?>
+	<?php if( isset($pagination) && $pagination ) : ?>
+	<nav class="pag">
+		<?php echo $pagination; ?>
+	</nav>
+	<?php endif; ?>
 </div>

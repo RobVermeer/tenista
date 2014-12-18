@@ -17,8 +17,8 @@ include(RM_INC_PATH . "menus.php");
 include(RM_INC_PATH . "sidebar.php");
 include(RM_INC_PATH . "scripts.php");
 include(RM_INC_PATH . "styles.php");
+include(RM_INC_PATH . "pagination.php");
 //include(RM_INC_PATH . "ajax.php");
-//include(RM_INC_PATH . "pagination.php");
 //include(RM_INC_PATH . "shortcodes.php");
 //include(RM_INC_PATH . "social.php");
 
