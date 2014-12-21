@@ -64,6 +64,21 @@
 	margin-bottom: 20px;
 }
 
+.page-nav a {
+	display: block;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #ccd;
+}
+
+.page-nav li:last-child a {
+	border-bottom: 0;
+}
+
+.page-nav a:hover {
+	text-decoration: none;
+	background: #eee;
+}
+
 .entry {
 	min-height: 400px;
 	margin-bottom: 40px;
