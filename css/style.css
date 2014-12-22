@@ -11,6 +11,9 @@ body {
 	background: #f8f8f8;
 }
 @media (min-width: 768px) {
+	body {
+		background: #276C97 url('../img/bg/png') repeat;
+	}
 	.container {
 		margin-top: 15px;
 		margin-bottom: 30px;
