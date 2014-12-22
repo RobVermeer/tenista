@@ -101,10 +101,14 @@
 }
 
 .footer .logos a {
-	margin-right: 10px;
 	padding: 10px;
 	display: inline-block;
 	border-radius: 4px;
+	width: 45%;
+}
+
+.footer .logos img {
+	max-width: 100%;
 }
 
 .footer .logos a:hover {
@@ -131,6 +135,11 @@
 	
 	.footer .info {
 		text-align: right;
+	}
+	
+	.footer .logos a {
+		margin-right: 10px;
+		width: auto;
 	}
 }
 /* End Footer */
