@@ -22,4 +22,8 @@
 	<?php do_action('after_body'); ?>
 	
 	<div class="container">
+		<div class="page-border-top"></div>
+		<div class="miniman">
+			<img src="<?php bloginfo('template_url'); ?>/img/miniman.png" />
+		</div>
 		<?php get_template_part('partials/header', 'nav'); ?>

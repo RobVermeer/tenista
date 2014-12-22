@@ -23,6 +23,23 @@ body {
 	}	
 }
 
+.page-border-top {
+	border-bottom: 4px solid #00008c;
+	margin-top: 20px;
+}
+
+.miniman {
+	height:42px;
+	width:100%;
+	text-align:center;
+	margin-top:-22px;
+}
+
+.miniman img {
+	height:30px;
+	margin-top:10px;
+}
+
 .page-border-bottom {
 	border-top: 4px solid #00008c;
 	margin-bottom: 20px;
@@ -32,7 +49,6 @@ body {
 
 /* Header */
 .header {
-	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
