@@ -55,6 +55,8 @@
 
 .header .current_page_item a,
 .header .current_page_item a:hover,
+.header .current_page_parent a,
+.header .current_page_parent a:hover,
 .header .current-page-ancestor a,
 .header .current-page-ancestor a:hover {
 	color: #fff;
