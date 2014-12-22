@@ -22,6 +22,12 @@ body {
 		padding: 0 30px;
 	}	
 }
+
+.page-border-bottom {
+	border-top: 4px solid #00008c;
+	margin-bottom: 20px;
+}
+
 /* End General */
 
 /* Header */
