@@ -168,14 +168,18 @@
 }
 
 .entry {
-	min-height: 400px;
 	margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+	.entry {
+		min-height: 400px;
+	}
 }
 /* End Page */
 
 /* News */
 .news-archive {
-	min-height: 400px;
 	margin-bottom: 40px;
 }
 
@@ -195,6 +199,12 @@
 
 .widget {
 	margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+	.news-archive {
+		min-height: 400px;
+	}
 }
 /* News */
 
