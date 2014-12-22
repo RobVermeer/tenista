@@ -216,7 +216,12 @@ body {
 .page-nav ul {
 	list-style: none;
 	padding: 0;
-	margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+	.page-nav ul {
+		margin-top: 20px;
+	}
 }
 
 .page-nav a {
