@@ -2,6 +2,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 /* End Fonts */
 
+/* General */
+body {
+	background: #276C97;
+}
+
+.container {
+	background: #f8f8f8;
+}
+/* End General */
+
 /* Header */
 .header {
 	margin-top: 20px;
