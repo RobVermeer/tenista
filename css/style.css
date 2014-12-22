@@ -23,9 +23,14 @@
 
 .header-img .cta {
 	position: absolute;
-	right: 35px;
-	bottom: 40px;
+	right: 25px;
+	bottom: 30px;
 	text-align: right;
+	color: #fff;
+}
+
+.header-img .cta nav a {
+	color: #fff;
 }
 
 .header ul {

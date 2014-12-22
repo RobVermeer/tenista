@@ -1,6 +1,6 @@
 <header class="row header">
 	<div class="col-xs-12 header-img">
-		<a href="<?php bloginfo('url'); ?>"><img src="http://placehold.it/1200x300"></a>
+		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/header.png"></a>
 		<div class="cta">
 			<a href="#" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>
 			<nav>
