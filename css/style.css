@@ -249,6 +249,7 @@ body {
 	display: block;
 	font-size: 25px;
 	line-height: 1.42;
+	margin: 0;
 }
 
 .sidebar .news-item {
