@@ -93,6 +93,17 @@ body {
 	display: block;
 }
 
+@media (min-width: 992px) {
+	.header .menu a {
+		padding: 7px 25px;
+	}
+}
+
+@media (min-width: 768px) {
+	.header .menu a {
+		padding: 7px 16px;
+	}
+}
 .header .menu a:hover {
 	text-decoration: none;
 	background: #eee;
