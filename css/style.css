@@ -241,6 +241,16 @@ body {
 /* News */
 
 /* Home */
+.sidebar h3 {
+	background: #00008c;
+	color: white;
+	font-weight: 300;
+	padding: 2px 2px 2px 7px;
+	display: block;
+	font-size: 25px;
+	line-height: 1.42;
+}
+
 .sidebar .news-item {
 	margin-bottom: 20px;
 }
