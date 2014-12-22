@@ -252,8 +252,19 @@ body {
 }
 
 .sidebar .news-item {
-	margin-bottom: 20px;
+	padding: 12px 0;
+	border-bottom: 1px solid #ccd;
 }
+
+.sidebar .news-item h4 {
+	margin: 0 0 4px;
+	font-weight: 700;
+}
+
+.sidebar .news-item p {
+	margin: 0;
+}
+
 .sidebar img {
 	max-width: 100%;
 	height: auto;
