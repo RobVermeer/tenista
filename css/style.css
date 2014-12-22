@@ -10,6 +10,13 @@ body {
 .container {
 	background: #f8f8f8;
 }
+@media (min-width: 768px) {
+	.container {
+		margin-top: 15px;
+		margin-bottom: 30px;
+		box-shadow: 0 0 18px #333;
+	}	
+}
 /* End General */
 
 /* Header */
