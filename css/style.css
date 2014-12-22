@@ -54,7 +54,6 @@ body {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 0;
-	text-transform: uppercase;
 }
 
 .header li {
@@ -62,13 +61,15 @@ body {
 }
 
 .header .menu a {
-	padding: 8px 10px;
+	padding: 8px 30px;
+	font-size:16px;
 	display: block;
 }
 
 .header .menu a:hover {
 	text-decoration: none;
 	background: #eee;
+	color:#00008c;
 }
 
 .header .current_page_item a,
