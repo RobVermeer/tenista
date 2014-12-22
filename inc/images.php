@@ -2,7 +2,7 @@
 
 /* Post thumbnail support */
 add_theme_support('post-thumbnails');
-add_image_size('thumbnail-wide', 800, 450, true);
+add_image_size('thumbnail-wide', 900, 500, true);
 
 /* Content width for max width images */
 //if ( ! isset( $content_width ) ) $content_width = 560;
