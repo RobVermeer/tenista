@@ -4,7 +4,7 @@ $news = new WP_Query(array(
 	'posts_per_page' => 3
 ));
 ?>
-<aside class="col-xs-12 col-sm-3 sidebar">
+<aside class="col-xs-12 col-sm-4 sidebar">
 	<h3><?php _e('Nieuws', 'rm'); ?></h3>
 	<?php if( $news->have_posts() ) while( $news->have_posts() ) : $news->the_post(); ?>
 		<div class="news-item">

@@ -1,4 +1,4 @@
-<div class="col-xs-12 col-sm-9">
+<div class="col-xs-12 col-sm-8">
 	<?php get_template_part('partials/home', 'slider'); ?>
 	
 	<article class="entry">
