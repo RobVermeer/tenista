@@ -32,11 +32,26 @@
 	list-style: none;
 	padding: 0;
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 .header li {
 	display: inline-block;
-	margin-right: 20px;
+}
+
+.header .menu a {
+	padding: 10px;
+}
+
+.header .menu a:hover {
+	text-decoration: none;
+	background: #eee;
+}
+
+.header .current_page_item a,
+.header .current_page_item a:hover {
+	color: #fff;
+	background: #00008c;
 }
 /* End Header */
 
