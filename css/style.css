@@ -319,7 +319,8 @@ body {
 }
 
 .carousel {
-	margin-bottom: 40px;
+	margin-bottom: 15px;
+	border: 2px solid #00008c;
 }
 /* End Home */
 
