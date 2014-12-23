@@ -6,9 +6,9 @@
 	
 	$(window).scroll(function(){ 
 		if ($(this).scrollTop() > 313) { 
-			$('.page-nav').addClass('fixed'); 
+			$('.page-nav ul').addClass('fixed'); 
 		} else { 
-			$('.page-nav').removeClass('fixed'); 
+			$('.page-nav ul').removeClass('fixed'); 
 		}
 	});
 	
