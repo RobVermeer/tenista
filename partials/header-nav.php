@@ -1,6 +1,7 @@
 <header class="row header">
 	<div class="col-xs-12 header-img">
-		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/header.png"></a>
+		<img class="visible-xs headermobile" src="<?php bloginfo('template_url'); ?>/img/headermobile.png" />
+		<a href="<?php bloginfo('url'); ?>"><img class="hidden-xs" src="<?php bloginfo('template_url'); ?>/img/header.png"></a>
 		<div class="cta hidden-xs">
 			<a href="#" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>
 			<nav>

@@ -61,6 +61,10 @@ body {
 	position: relative;
 }
 
+.header-img .headermobile {
+	width: 100%;
+}
+
 .header-img .btn {
 	margin-bottom: 10px;
 }
