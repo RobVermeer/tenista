@@ -7,7 +7,7 @@
 	var viewportWidth = $(window).width();
 	
 	if (viewportWidth > 992) {
-		$body.append(" <div class='fixed-bg'><img src='http://tenista.robvermeer.nl/wp-content/themes/tenista/img/IMG_2223.JPG' /></div> ");
+		$body.prepend(" <div class='fixed-bg'><img src='http://tenista.robvermeer.nl/wp-content/themes/tenista/img/IMG_2223.JPG' /></div> ");
 		
 		$(window).scroll(function(){ 
 			if ($(this).scrollTop() > 313) { 

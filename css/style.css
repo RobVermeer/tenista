@@ -26,7 +26,8 @@ body {
 	}
 
 	.container {
-		margin-top: 15px;
+		position: relative;
+		top: 15px;
 		margin-bottom: 30px;
 		box-shadow: 0 0 18px #333;
 		padding: 0 30px;
