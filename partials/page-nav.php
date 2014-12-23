@@ -1,17 +1,4 @@
 <?php if( has_children() ) : ?>
-
-<script>
-$(document).ready(function() {
- $(window).scroll(function(){ 
-  if ($(this).scrollTop() > 313) { 
-	$('.page-nav').addClass('fixed'); 
-  } else { 
-	$('.page-nav').removeClass('fixed'); 
-  }
- });
-});
-</script>
-
 	<nav class="col-xs-12 col-sm-3 page-nav">
 		<?php $children = get_the_children(); ?>
 		<ul>
