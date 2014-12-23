@@ -253,6 +253,18 @@ body {
 	position: fixed;
 	top:0;
 }
+@media (min-width: 992px) {
+	.page-nav .fixed {
+		width: 180px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.page-nav .fixed {
+		width: 205px;
+	}
+}
 
 .page-nav ul {
 	list-style: none;
