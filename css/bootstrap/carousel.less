@@ -16,6 +16,7 @@
   > .item {
     display: none;
     position: relative;
+	max-height: 250px;
     .transition(.6s ease-in-out left);
 
     // Account for jankitude on images
@@ -171,15 +172,16 @@
 // slide your carousel holds.
 
 .carousel-indicators {
+  bottom: 0;
+  right: 20px;
+  width: auto;
+  left: auto;
   position: absolute;
-  bottom: 10px;
-  left: 50%;
   z-index: 15;
-  width: 60%;
   margin-left: -30%;
   padding-left: 0;
   list-style: none;
-  text-align: center;
+  text-align: right;
 
   li {
     display: inline-block;
