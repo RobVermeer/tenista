@@ -235,6 +235,10 @@ body {
 /* End Footer */
 
 /* Page */
+.page-nav.fixed {
+	position: fixed;
+}
+
 .page-nav ul {
 	list-style: none;
 	padding: 0;
