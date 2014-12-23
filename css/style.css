@@ -249,12 +249,11 @@ body {
 /* End Footer */
 
 /* Page */
-.page-nav .fixed {
-	position: fixed;
-	top:0;
-}
+
 @media (min-width: 992px) {
 	.page-nav .fixed {
+		position: fixed;
+		top: 0;
 		width: 180px;
 	}
 }
