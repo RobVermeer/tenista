@@ -21,6 +21,8 @@
 <body <?php body_class("no-js"); ?>>
 	<?php do_action('after_body'); ?>
 	
+	<div class="fixed-bg"></div>
+	
 	<div class="container">
 		<div class="page-border-top"></div>
 		<div class="miniman">
