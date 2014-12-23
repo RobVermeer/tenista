@@ -269,6 +269,7 @@ body {
 .page-nav a:hover {
 	text-decoration: none;
 	background: #eee;
+	color: #00008c;
 }
 
 .entry {
