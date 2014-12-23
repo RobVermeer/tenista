@@ -285,16 +285,16 @@ body {
 	border-bottom: 0;
 }
 
-.page-nav .current-item a {
-	text-decoration: none;
-	background: #00008c;
-	color: white;
-}
-
 .page-nav a:hover {
 	text-decoration: none;
 	background: #eee;
 	color: #00008c;
+}
+
+.page-nav .current-item a {
+	text-decoration: none;
+	background: #00008c;
+	color: white;
 }
 
 .entry {
