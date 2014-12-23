@@ -93,6 +93,22 @@ body {
 	display: block;
 }
 
+@media (max-width: 768px) {
+	.header .menu a {
+		background: #00008c;
+		color: white;
+	}
+	.header .current_page_item a,
+	.header .current_page_item a:hover,
+	.header .current_page_parent a,
+	.header .current_page_parent a:hover,
+	.header .current-page-ancestor a,
+	.header .current-page-ancestor a:hover {
+		color: #00008c;
+		background: #ccd;
+	}
+}
+
 @media (min-width: 768px) {
 	.header .menu a {
 		padding: 7px 16px;
