@@ -237,6 +237,7 @@ body {
 /* Page */
 .page-nav .fixed {
 	position: fixed;
+	top:0;
 }
 
 .page-nav ul {
