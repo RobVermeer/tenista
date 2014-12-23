@@ -131,6 +131,8 @@ body {
 	.header .menu a {
 		background: #00008c;
 		color: white;
+		font-size: 1.5em;
+		padding:4px 30px;
 	}
 	.header .current_page_item a,
 	.header .current_page_item a:hover,
