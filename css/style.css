@@ -6,18 +6,17 @@
 body {
 	background: #276C97;
 }
-@media (min-width: 992px) {
-	.fixed-bg {
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		display: block;
-		opacity: .15;
-		overflow: hidden;
-	}
-	.fixed-bg img {
-		width: 100%;
-	}
+
+.fixed-bg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: block;
+	opacity: .15;
+	overflow: hidden;
+}
+.fixed-bg img {
+	width: 100%;
 }
 
 .container {
