@@ -298,6 +298,14 @@ body {
 	color: white;
 }
 
+@media (max-width: 767px) {
+	.page-nav .current-item a {
+		text-decoration: none;
+		background: #bbc;
+		color: white;
+	}
+}
+
 .entry {
 	margin-bottom: 40px;
 }
