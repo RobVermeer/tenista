@@ -301,8 +301,8 @@ body {
 @media (max-width: 767px) {
 	.page-nav .current-item a {
 		text-decoration: none;
-		background: #bbc;
-		color: white;
+		background: #ccd;
+		color: #00008c;
 	}
 }
 
