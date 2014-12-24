@@ -151,6 +151,7 @@ body {
 		color: white;
 		font-size: 1.4em;
 		padding:4px 30px;
+		text-align: center;
 	}
 	.header .current_page_item a,
 	.header .current_page_item a:hover,
