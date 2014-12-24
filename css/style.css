@@ -302,6 +302,16 @@ body {
 	margin-bottom: 40px;
 }
 
+.entry .img-left {
+	float: left;
+	padding: 4px 10px 2px 0;
+}
+
+.entry .img-right {
+	float: right;
+	padding: 4px 0 2px 10px;
+}
+
 @media (min-width: 768px) {
 	.entry {
 		min-height: 400px;
