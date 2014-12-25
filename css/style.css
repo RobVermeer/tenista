@@ -335,7 +335,7 @@ body {
 @media (max-width: 768px) {
 		.xs-img-full {
 			width: 100% !important;
-			margin: 10px 0;
+			margin: 10px 0 !important;
 		}
 }
 
