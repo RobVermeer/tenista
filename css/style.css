@@ -422,6 +422,13 @@ body {
 	padding-right: 18px;
 }
 
+@media (max-width: 767px) {
+	.adress .maps img {
+	margin-right: 5px;
+	padding-right: 8px;
+	}
+}
+
 .map-logo {
 	height: 100px;
 	float: right;
