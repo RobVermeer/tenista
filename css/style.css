@@ -430,8 +430,7 @@ body {
 
 .contact td {
 	border: none !important;
-	padding: 0 !important;
-	margin-bottom: 25px;
+	padding: 0 0 25px !important;
 }
 .maps {
 	width: 100px;
