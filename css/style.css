@@ -431,6 +431,7 @@ body {
 .contact td {
 	border: none !important;
 	padding: 0 !important;
+	margin-bottom: 25px;
 }
 .maps {
 	width: 100px;
@@ -439,7 +440,6 @@ body {
 	width: 125px;
 	padding-right: 17px;
 	margin-right: 14px;
-	margin-bottom: 25px;
 	border-right: 1px solid #ccd;
 }
 
