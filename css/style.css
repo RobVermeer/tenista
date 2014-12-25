@@ -441,6 +441,10 @@ body {
 	margin-right: 14px;
 	border-right: 1px solid #ccd;
 }
+.logo-adres {
+	float: right;
+	margin-left: 15px;
+}
 
 /* End Contact */
 
