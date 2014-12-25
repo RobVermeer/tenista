@@ -409,6 +409,30 @@ body {
 }
 /* End Home */
 
+/* Contact */
+.adress {
+	margin-bottom: 30px;
+}
+
+.adress .maps img {
+	float: left;
+	border-right: 1px solid #ccd;
+	height: 100px;
+	margin-right: 15px;
+	padding-right: 18px;
+}
+
+.map-logo {
+	height: 100px;
+	float: right;
+	display: inline-block;
+}
+
+.map-info {
+	display: inline-block;
+}
+/* End Contact */
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
