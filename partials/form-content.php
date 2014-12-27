@@ -24,82 +24,82 @@
 				<label class="col-sm-3 control-label" for="geslacht">Geslacht</label>
 				<div class="col-sm-9">
 					<label class="radio-inline">
-						<input id="geslacht" name="inlineRadioOptions" type="radio" value="Man" />Man
+						<input id="geslacht" name="Geslacht" type="radio" value="Man" />Man
 					</label>
 					<label class="radio-inline">
-						<input id="geslacht" name="inlineRadioOptions" type="radio" value="Vrouw" />Vrouw
+						<input id="geslacht" name="Geslacht" type="radio" value="Vrouw" />Vrouw
 					</label>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="voornaam">Voornaam</label>
 				<div class="col-sm-9">
-					<input id="voornaam" class="form-control" type="text" placeholder="Voornaam" />
+					<input id="voornaam" class="form-control" type="text" name="Voornaam" placeholder="Voornaam" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="achternaam">Achternaam</label>
 				<div class="col-sm-9">
-					<input id="achternaam" class="form-control" type="text" placeholder="Achternaam" />
+					<input id="achternaam" class="form-control" type="text" name="Achternaam" placeholder="Achternaam" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="geboortedatum">Geboortedatum</label>
 				<div class="col-sm-9">
-					<input id="geboortedatum" class="form-control" type="date" placeholder="Geboortedatum" />
+					<input id="geboortedatum" class="form-control" type="date" name="Geboortedatum" placeholder="Geboortedatum" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="adres">Adres</label>
 				<div class="col-sm-9">
-					<input id="adres" class="form-control" type="text" placeholder="Adres" />
+					<input id="adres" class="form-control" type="text" name="Adres" placeholder="Adres" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="telefoon">Telefoonnummer</label>
 				<div class="col-sm-9">
-					<input id="telefoon" class="form-control" type="number" placeholder="Telefoonnummer" />
+					<input id="telefoon" class="form-control" type="number" name="Telefoonnummer" placeholder="Telefoonnummer" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="postcode">Postcode en plaats</label>
 				<div class="col-sm-9">
-					<input id="postcode" class="form-control" type="text" placeholder="Postcode en plaats" />
+					<input id="postcode" class="form-control" type="text" name="Postcode en adres" placeholder="Postcode en plaats" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="email">Email</label>
 				<div class="col-sm-9">
-					<input id="email" class="form-control" type="email" placeholder="Email" />
+					<input id="email" class="form-control" type="email" name="Email" placeholder="Email" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="student">Student</label>
 				<div class="col-sm-9">
 					<label class="radio-inline">
-						<input id="student" name="inlineRadioOptions" type="radio" value="Ja" />Ja
+						<input id="student" name="Student" type="radio" value="Ja" />Ja
 					</label>
 					<label class="radio-inline">
-						<input id="student" name="inlineRadioOptions" type="radio" value="Nee" />Nee
+						<input id="student" name="Student" type="radio" value="Nee" />Nee
 					</label>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="universiteit">Universiteit</label>
 				<div class="col-sm-9">
-					<input id="universiteit" class="form-control" type="text" placeholder="Universiteit" />
+					<input id="universiteit" class="form-control" name="Universiteit" type="text" placeholder="Universiteit" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="studie">Studie / Werk</label>
 				<div class="col-sm-9">
-					<input id="studie" class="form-control" type="text" placeholder="Studie / Werk" />
+					<input id="studie" class="form-control" type="text"  name="Studie"placeholder="Studie / Werk" />
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="commissie">Interesse in een commissie?</label>
 				<div class="col-sm-9">
-					<select id="commissie" class="form-control">
+					<select id="commissie" class="form-control" name="commissie">
 						<option>- - - - -</option>
 						<option>Evenementen commissie</option>
 						<option>Pinkstertoernooi commissie</option>
@@ -113,7 +113,7 @@
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="knltb">KNLTB nummer (indien al eerder KNLTB-lid)</label>
 				<div class="col-sm-9">
-					<input id="knltb" class="form-control" type="number" placeholder="KNLTB nummer" />
+					<input id="knltb" class="form-control" type="number" name="KNLTB nummer" placeholder="KNLTB nummer" />
 				</div>
 			</div>
 			<div class="form-group">
@@ -121,10 +121,10 @@
 				<div class="col-sm-9">
 					<div class="row">
 						<div class="col-xs-4">
-							<input type="number" id="single" class="form-control" placeholder="Enkel" />
+							<input type="number" id="single" class="form-control" name="Speelsterkte enkel" placeholder="Enkel" />
 						</div>
 						<div class="col-xs-4">
-							<input type="number" id="dubbel" class="form-control" placeholder="Dubbel" />
+							<input type="number" id="dubbel" class="form-control" name="Speelsterkte dubbel" placeholder="Dubbel" />
 						</div>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="foto">Recente foto</label>
 				<div class="col-sm-9">
-					<input id="foto" type="file" />
+					<input id="foto" type="file" name="Recente foto" />
 					<p class="help-block">Indien je nog geen KNLTB-lid bent of een verouderde foto bij de KNLTB bekend is, dient een foto ingeleverd te worden!</p>
 				</div>
 			</div>
