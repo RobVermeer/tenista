@@ -315,6 +315,10 @@ body {
 	margin-bottom: 40px;
 }
 
+.entry a {
+	color: #3990C7;
+}
+
 .entry .img-full {
 	width: 100%;
 	margin: 10px 0;
