@@ -3,7 +3,7 @@
 		<img class="visible-xs headermobile" src="<?php bloginfo('template_url'); ?>/img/headermobile.png" />
 		<a href="<?php bloginfo('url'); ?>"><img class="hidden-xs" src="<?php bloginfo('template_url'); ?>/img/header.png"></a>
 		<div class="cta hidden-xs">
-			<a href="#" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>
+			<a href="/inschrijven" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>
 			<nav>
 				<?php _e('Amsterdam', 'rm'); ?> | <a href="mailto:info@tenista.nl"><?php _e('info@tenista.nl', 'rm'); ?></a>
 			</nav>
