@@ -19,7 +19,7 @@
 		Voor vragen kan je mailen naar info@tenista.nl.
 	</div>
 	<div class="col-sm-9 col-sm-pull-3">
-		<form class="form-horizontal">
+		<form class="form-horizontal" method="post" action="send-form">
 			<div class="form-group">
 				<label class="col-sm-3 control-label" for="geslacht">Geslacht</label>
 				<div class="col-sm-9">
