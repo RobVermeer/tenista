@@ -5,7 +5,7 @@
 		<div class="cta hidden-xs">
 			<a href="/inschrijven" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>
 			<nav>
-				<?php _e('Amsterdam', 'rm'); ?> | <a href="mailto:info@tenista.nl"><?php _e('info@tenista.nl', 'rm'); ?></a>
+				<a href="/contact"><?php _e('Amsterdam', 'rm'); ?></a> | <a href="mailto:info@tenista.nl"><?php _e('info@tenista.nl', 'rm'); ?></a>
 			</nav>
 		</div>
 		<button class="navbar-toggle collapsed btn btn-default" type="button" data-toggle="collapse" data-target=".header-menu">
