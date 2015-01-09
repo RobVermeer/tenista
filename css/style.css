@@ -405,6 +405,16 @@ body {
 .sidebar .news-item {
 	padding: 12px 0;
 	border-bottom: 1px solid #ccd;
+	position: relative;
+}
+
+.sidebar .news-item a:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .sidebar .news-item h4 {
