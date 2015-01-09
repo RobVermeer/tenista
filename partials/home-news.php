@@ -1,7 +1,14 @@
 <?php
 $news = new WP_Query(array(
 	'post_type' => 'post',
-	'posts_per_page' => 3
+	'posts_per_page' => 3,
+	'meta_query' => array(
+		array(
+			'key' => 'featured',
+			'value' => array(1),
+			'compare' => 'NOT EXISTS'
+		)
+	)
 ));
 ?>
 <aside class="col-xs-12 col-sm-4 sidebar">
