@@ -459,8 +459,13 @@ body {
 	float: right;
 	margin-left: 15px;
 }
-
 /* End Contact */
+
+/* Forms */
+.form-signup {
+	margin-bottom: 20px;
+}
+/* Forms */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
