@@ -5,6 +5,7 @@
 				<nav class="col-xs-12 col-sm-9 logos">
 					<a href="http://www.sportcentrum.vu.nl/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/vu.png" alt="<?php _e('Sportcentrum VU', 'rm'); ?>"></a>
 					<a href="http://www.studentensportamsterdam.nl/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/ssa.png" alt="<?php _e('Studentensport Amsterdam', 'rm'); ?>"></a>
+					<a href="https://www.facebook.com/pages/Cafe-de-Kroeg/267191183310332" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dekroeg.png" alt="<?php _e('Cafe de Kroeg', 'rm'); ?>"></a>
 				</nav>
 				<div class="col-xs-12 col-sm-3 info">
 					<span>&copy; <?php bloginfo('name'); ?> <?php echo date_i18n('Y', current_time('timestamp')); ?></span><br>
