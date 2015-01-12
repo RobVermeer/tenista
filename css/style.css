@@ -407,6 +407,14 @@ body {
 	border-bottom: 1px solid #ccd;
 	position: relative;
 }
+.sidebar .news-item:hover {
+	background: #eee;
+}
+
+.sidebar .news-item a:hover {
+	color: #00008c;
+	text-decoration: none;
+}
 
 .sidebar .news-item a:after {
 	content: "";
