@@ -469,6 +469,12 @@ body {
 }
 /* End Contact */
 
+/* Competitie */
+tr.italic td {
+	font-style: italic;
+}
+/* End competitie */
+
 /* Forms */
 .form-signup {
 	margin-bottom: 20px;
