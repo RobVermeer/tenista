@@ -494,11 +494,18 @@ a.album {
 	background-size: cover;
 	display: inline-block;
 	border: 2px solid #00008c;
-	height: 150px;
-	width: 150px;
-	margin: 0 15px 15px 0;
+	height: 40vw;
+	width: 40vw;
+	margin: 0 5vw 5vw 0;
 	float: left;
 	position: relative;
+}
+
+@media (min-width: 768px) {
+	a.album {
+		width: 150px;
+		height: 150px;
+	}
 }
 
 a.album:hover {
