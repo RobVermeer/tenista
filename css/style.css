@@ -493,12 +493,15 @@ a.album {
 	background: #ddd;
 	background-size: cover;
 	display: inline-block;
-	border: 2px solid #00008c;
+	border: 5px solid #fff;
 	height: 40vw;
 	width: 40vw;
 	margin: 0 5vw 5vw 0;
 	float: left;
 	position: relative;
+	outline: 1px solid #ddd;
+	box-shadow: 0 0 5px #bbb;
+	font-weight: 300;
 }
 
 @media (min-width: 768px) {
@@ -510,7 +513,8 @@ a.album {
 }
 
 a.album:hover {
-	border-color: #aaa;
+	outline-color: #ccc;
+	box-shadow: 0 0 7px #999;
 }
 
 .album span {
