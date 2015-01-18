@@ -18,6 +18,7 @@ function send_signup_mail() {
 		$message .= sprintf(__('Student: %s<br>', 'rm'), $_POST['student']);
 		$message .= sprintf(__('Universiteit: %s<br>', 'rm'), $_POST['universiteit']);
 		$message .= sprintf(__('Studie/werk: %s<br>', 'rm'), $_POST['studie']);
+		$message .= sprintf(__('Commissie: %s<br>', 'rm'), $_POST['commissie']);
 		$message .= sprintf(__('Knltb: %s<br>', 'rm'), $_POST['knltb']);
 		$message .= sprintf(__('Speelsterkte: single %s dubbel %s<br>', 'rm'), $_POST['single'], $_POST['dubbel']);
 		
