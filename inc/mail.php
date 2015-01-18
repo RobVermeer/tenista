@@ -25,7 +25,7 @@ function send_signup_mail() {
 		if( isset($_FILES) && isset($_FILES['foto']) && $_FILES['foto'] ) {
 			$foto = WP_CONTENT_DIR . '/uploads/' . basename($_FILES['foto']['name']);
 			move_uploaded_file($_FILES['foto']['tmp_name'], $foto);
-			$attachments = $_FILES['foto']['tmp_name'];
+			$attachments = $foto;
 		}
 		
 		add_filter('wp_mail_content_type', 'set_content_type');
