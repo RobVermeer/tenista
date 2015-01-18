@@ -409,6 +409,15 @@ body {
 	margin: 0;
 }
 
+.sidebar h3 a {
+	color: inherit;
+	display: block;
+}
+
+.sidebar h3 a:hover {
+	text-decoration: none;
+}
+
 .sidebar .news-item {
 	padding: 12px 0;
 	border-bottom: 1px solid #ccd;

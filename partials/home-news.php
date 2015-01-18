@@ -1,4 +1,5 @@
 <?php
+$blog_id = get_option('page_for_posts');
 $news = new WP_Query(array(
 	'post_type' => 'post',
 	'posts_per_page' => 4,
@@ -12,7 +13,7 @@ $news = new WP_Query(array(
 ));
 ?>
 <aside class="col-xs-12 col-sm-4 sidebar">
-	<h3><?php _e('Nieuws', 'rm'); ?></h3>
+	<h3><a href="<?php echo get_permalink($blog_id); ?>"><?php _e('Nieuws', 'rm'); ?></a></h3>
 	<?php if( $news->have_posts() ) while( $news->have_posts() ) : $news->the_post(); ?>
 		<div class="news-item">
 			<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
