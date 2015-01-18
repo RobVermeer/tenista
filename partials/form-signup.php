@@ -103,7 +103,7 @@
 			<label class="col-sm-3 control-label" for="commissie">Interesse in een commissie?</label>
 			<div class="col-sm-9">
 				<select id="commissie" class="form-control" name="commissie">
-					<option>- - - - -</option>
+					<option>Dit is slechts een peiling, je zit nergens aan vast</option>
 					<option value="Evenementen commissie">Evenementen commissie</option>
 					<option value="Pinkstertoernooi commissie">Pinkstertoernooi commissie</option>
 					<option value="Weekendjeweg commissie">Weekendjeweg commissie</option>
