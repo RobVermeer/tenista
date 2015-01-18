@@ -22,11 +22,15 @@ function send_signup_mail() {
 		$message .= sprintf(__('Knltb: %s<br>', 'rm'), $_POST['knltb']);
 		$message .= sprintf(__('Speelsterkte: single %s dubbel %s<br>', 'rm'), $_POST['single'], $_POST['dubbel']);
 		
-		if( isset($_FILES) && $_FILES )
+		if( isset($_FILES) && isset($_FILES['foto']) && $_FILES['foto'] ) {
+			$foto = WP_CONTENT_DIR . '/uploads/' . basename($_FILES['foto']['name']);
+			move_uploaded_file($_FILES['foto']['tmp_name'], $foto);
 			$attachments = $_FILES['foto']['tmp_name'];
+		}
 		
 		add_filter('wp_mail_content_type', 'set_content_type');
 		wp_mail($to, $subject, $message, $headers, $attachments);
+		unlink($foto);
 		wp_redirect(get_bloginfo('url') . '/inschrijven/bedankt/');
 		exit;
 	}
