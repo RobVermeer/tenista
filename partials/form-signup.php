@@ -61,7 +61,7 @@
 		<div class="form-group">
 			<label class="col-sm-3 control-label" for="telefoon">Telefoonnummer</label>
 			<div class="col-sm-9">
-				<input id="telefoon" class="form-control required" type="number" name="telefoonnummer" placeholder="Telefoonnummer">
+				<input id="telefoon" class="form-control required" type="number" name="telefoon" placeholder="Telefoonnummer">
 			</div>
 		</div>
 		<div class="form-group">
