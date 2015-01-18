@@ -22,8 +22,9 @@ $featured = new WP_Query(array(
 
 	<div class="carousel-inner" role="listbox">
 		<?php $i = 0; while( $featured->have_posts() ) : $featured->the_post(); $i++; ?>
+			<?php $url = (get_post_meta(get_the_ID(), 'url', true) ? get_post_meta(get_the_ID(), 'url', true) : get_permalink()); ?>
 			<div class="item <?php if( $i == 1 ) : ?>active<?php endif; ?>">
-				<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail-wide'); ?></a>
+				<a href="<?php echo $url; ?>"><?php the_post_thumbnail('thumbnail-wide'); ?></a>
 				<div class="carousel-caption">
 					<h3><?php the_title(); ?></h3>
 				</div>
