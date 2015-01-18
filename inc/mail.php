@@ -22,10 +22,10 @@ function send_signup_mail() {
 		$message .= sprintf(__('Speelsterkte: single %s dubbel %s<br>', 'rm'), $_POST['single'], $_POST['dubbel']);
 		
 		if( isset($_FILES) && $_FILES )
-			$attachments = $_FILES["foto"]["tmp_name"];
+			$attachments = $_FILES['foto']['tmp_name'];
 		
 		add_filter('wp_mail_content_type', 'set_content_type');
-		wp_mail($to, $subject, $message, $headers);
+		wp_mail($to, $subject, $message, $headers, $attachments);
 		wp_redirect(get_bloginfo('url') . '/inschrijven/bedankt/');
 		exit;
 	}
