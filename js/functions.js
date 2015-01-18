@@ -42,7 +42,6 @@
 			newAlert('.alert-area', 'danger', 'Vul alle verplichte velden in');
 			e.preventDefault();
 		}
-		
 	}
 	
 	function newAlert(area, type, message) {
