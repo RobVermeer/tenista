@@ -167,7 +167,8 @@ body {
 
 .header .navbar-toggle {
 	position: absolute;
-	top: 15%;
+	top: 50%;
+	margin-top: -24px;
 	right: 10px;
 	background-color: #00008c;
 	border-color: #00008c;
