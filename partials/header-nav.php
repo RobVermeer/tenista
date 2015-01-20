@@ -1,6 +1,7 @@
 <header class="row header">
 	<div class="col-xs-12 header-img">
 		<img class="visible-xs headermobile" src="<?php bloginfo('template_url'); ?>/img/headermobile.png" />
+		<a class="mobile-hp-link" href="<?php bloginfo('url'); ?>"></a>
 		<div class="hidden-xs desktop-header"><a href="<?php bloginfo('url'); ?>"></a></div>
 		<div class="cta hidden-xs">
 			<a href="/inschrijven" class="btn btn-default"><?php _e('Word nu lid!', 'rm'); ?></a>

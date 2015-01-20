@@ -98,6 +98,13 @@ body {
 	height: 100%;
 	width: 22%;
 }
+.mobile-hp-link {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 65%;
+	height: 88%;
+}
 
 .header-img {
 	position: relative;
