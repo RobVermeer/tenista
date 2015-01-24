@@ -367,13 +367,15 @@ position: relative;
 }
 
 .page-nav button {
-	margin: 0 10px 0 0;
+	margin: 0;
 	position: absolute;
 	right: 0;
+	width: 100%;
 }
 
 .page-nav .icon-bar {
 	background: #00008c;
+	margin: 0 10px 0 auto;
 }
 
 .entry {
