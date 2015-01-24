@@ -14,13 +14,11 @@
 	});
 	
 	$(".page-nav .button-wrap").click(function() {
-		$(this).fadeOut(0, function() {	
-			$(this).remove()	
-		});
+		$(this).remove()	
 	});
 	
 	if (!$(".current-item")[0]){
-		$("h1").text("Not found");
+		$(".button-wrap").remove();
 		$(".page-nav li").removeClass("collapse");
 	}
 	
