@@ -19,7 +19,8 @@
 		});
 	});
 	
-	if (!$(".page-nav .current-item")[0]){
+	if ($(".page-nav .current-item")[0]){
+	} else {
 		$(".page-nav li").removeClass("collapse");
 	}
 	
