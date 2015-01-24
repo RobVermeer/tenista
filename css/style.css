@@ -343,7 +343,7 @@ body {
 }
 
 @media (max-width: 767px) {
-	.page-nav li {
+	.page-nav ul {
 		display: none;
 		
 	}
