@@ -19,8 +19,7 @@
 		});
 	});
 	
-	if ($(".page-nav .current-item")[0]){
-	} else {
+	if ($(".page-nav li").not(".current-item")) {
 		$(".page-nav li").removeClass("collapse");
 	}
 	
