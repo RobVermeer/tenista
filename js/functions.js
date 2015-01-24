@@ -13,9 +13,11 @@
 		}
 	});
 	
-	/*$(".page-nav .button-wrap").click(function() {
-		$(this).remove();
-	});*/
+	$(".page-nav .button-wrap").click(function() {
+		$(this).fadeOut(function() {	
+			$(this).remove()	
+		});
+	});
 	
 	$signup.on('submit', validate_signup);
 	
