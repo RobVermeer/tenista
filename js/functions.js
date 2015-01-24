@@ -13,10 +13,8 @@
 		}
 	});
 	
-	$(".page-nav button").click(function() {
-		$(".page-nav li").slideDown(function() {
-			$(".page-nav button").remove();
-		});
+	$(".page-nav .button-wrap").click(function() {
+		$(this).remove();
 	});
 	
 	$signup.on('submit', validate_signup);
