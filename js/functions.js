@@ -13,6 +13,10 @@
 		}
 	});
 	
+	$(".page-nav button").click(function() {
+		$(".page-nav li").slideDown();
+	});
+	
 	$signup.on('submit', validate_signup);
 	
 	function validate_signup( e ) {

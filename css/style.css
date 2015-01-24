@@ -343,6 +343,15 @@ body {
 }
 
 @media (max-width: 767px) {
+	.page-nav li {
+		display: none;
+		
+	}
+	
+	.page-nav .current-item {
+		display: block;
+	}
+	
 	.page-nav a {
 		padding: 8px 0 8px 10px;
 	}
@@ -352,6 +361,14 @@ body {
 		background: #ccd;
 		color: #00008c;
 	}
+}
+
+.page-nav button {
+	margin: 0 10px 0 0;
+}
+
+.page-nav .icon-bar {
+	background: #00008c;
 }
 
 .entry {
