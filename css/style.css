@@ -366,7 +366,7 @@ body {
 position: relative;
 }
 
-.page-nav button, .page-nav:hover, .page-nav:focus {
+.page-nav button, .page-nav button:hover, .page-nav button:focus {
 	background: transparent !important;
 	border-color: transparent !important;
 	margin: 0;
