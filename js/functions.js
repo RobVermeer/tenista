@@ -13,9 +13,9 @@
 		}
 	});
 	
-	$(".page-nav .button-wrap").click(function() {
+	/*$(".page-nav .button-wrap").click(function() {
 		$(this).remove();
-	});
+	});*/
 	
 	$signup.on('submit', validate_signup);
 	
