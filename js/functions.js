@@ -19,7 +19,7 @@
 		});
 	});
 	
-	if ($(".page-nav li").not(".current-item")) {
+	if (!$(".current-item")[0]){
 		$("h1").text("Not found");
 		$(".page-nav li").removeClass("collapse");
 	}
