@@ -367,12 +367,12 @@ position: relative;
 }
 
 .page-nav button, .page-nav:hover, .page-nav:focus {
-	background: transparent;
+	background: transparent !important;
+	border-color: transparent !important;
 	margin: 0;
 	position: absolute;
 	right: 0;
 	width: 100%;
-	z-index: 9999;
 }
 
 .page-nav .icon-bar {
