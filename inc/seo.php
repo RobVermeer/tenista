@@ -87,7 +87,7 @@ function rm_seo_title() {
 		$keywords = ($seo_keywords ? $seo_keywords : wp_title(',', false, 'right') . get_bloginfo('name'));
 	}
 	
-	$title = (isset($title) && $title ? $title : wp_title('&raquo;', false, 'right') . get_bloginfo('name'));
+	$title = (isset($title) && $title ? $title : wp_title('//', false, 'right') . get_bloginfo('name'));
 	$description = (isset($description) && $description ? $description : get_bloginfo('description'));
 	$keywords = (isset($keywords) && $keywords ? $keywords : wp_title(',', false, 'right') . get_bloginfo('name'));
 	
