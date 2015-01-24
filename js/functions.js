@@ -14,7 +14,7 @@
 	});
 	
 	$(".page-nav .button-wrap").click(function() {
-		$(this).fadeOut(function(0) {	
+		$(this).fadeOut(0, function() {	
 			$(this).remove()	
 		});
 	});
