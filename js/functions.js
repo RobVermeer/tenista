@@ -14,10 +14,14 @@
 	});
 	
 	$(".page-nav .button-wrap").click(function() {
-		$(this).fadeOut(function() {	
+		$(this).fadeOut(function(0) {	
 			$(this).remove()	
 		});
 	});
+	
+	if (!$(".page-nav .current-item")[0]){
+		$(".page-nav li").removeClass("collapse");
+	}
 	
 	$signup.on('submit', validate_signup);
 	
