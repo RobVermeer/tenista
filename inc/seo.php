@@ -80,7 +80,7 @@ function rm_seo_title() {
 
 	if( is_singular() && isset($post->ID) ) {
 		$seo_title = (isset($post_custom_fields['seo_title'][0]) ? $post_custom_fields['seo_title'][0] : false);
-		$title = ($seo_title ? $seo_title : wp_title('//;', false, 'right') . get_bloginfo('name'));
+		$title = ($seo_title ? $seo_title : wp_title('//', false, 'right') . get_bloginfo('name'));
 		$seo_description = (isset($post_custom_fields['seo_description'][0]) ? $post_custom_fields['seo_description'][0] : false);
 		$description = ($seo_description ? $seo_description : trim(trunc(strip_tags(preg_replace('/\s+/', ' ', preg_replace("~(?:\[/?)[^/\]]+/?\]~s", '', $post->post_content))), 25, '...')));
 		$seo_keywords = (isset($post_custom_fields['seo_keywords'][0]) ? $post_custom_fields['seo_keywords'][0] : false);
