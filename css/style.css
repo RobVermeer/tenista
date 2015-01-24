@@ -328,11 +328,11 @@ body {
 .page-nav a {
 	display: block;
 	padding: 10px 0 10px 12px;
-	border-bottom: 1px solid #ccd;
+	border-top: 1px solid #ccd;
 }
 
-.page-nav li:last-child a {
-	border-bottom: 0;
+.page-nav li:first-child a {
+	border-top: 0;
 }
 
 .page-nav a:hover {
