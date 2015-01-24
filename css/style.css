@@ -343,10 +343,6 @@ body {
 }
 
 @media (max-width: 767px) {
-	.page-nav ul {
-		display: none;
-		
-	}
 	
 	.page-nav .current-item {
 		display: block;
