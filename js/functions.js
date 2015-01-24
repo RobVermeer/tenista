@@ -14,7 +14,9 @@
 	});
 	
 	$(".page-nav button").click(function() {
-		$(".page-nav li").slideDown();
+		$(".page-nav li").slideDown(function() {
+			$(".page-nav button").remove();
+		});
 	});
 	
 	$signup.on('submit', validate_signup);
