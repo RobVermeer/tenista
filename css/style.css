@@ -318,6 +318,11 @@ body {
 	.page-nav ul {
 		margin-top: 20px;
 	}
+	.page-nav li {
+		display: block !important;
+		visibility: visible !important;
+		height: auto !important;
+	}
 }
 
 .page-nav a {
@@ -343,7 +348,6 @@ body {
 }
 
 @media (max-width: 767px) {
-	
 	.page-nav .current-item {
 		display: block;
 	}
@@ -361,6 +365,7 @@ body {
 
 .page-nav button {
 	margin: 0 10px 0 0;
+	position: absolute;
 }
 
 .page-nav .icon-bar {
