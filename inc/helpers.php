@@ -213,7 +213,7 @@ function get_the_children() {
 		
 	$page_id = (isset($post->post_parent) && $post->post_parent ? $post->post_parent : $post->ID);
 	
-	return get_pages(array('child_of' => $page_id));
+	return get_pages(array('child_of' => $page_id, 'sort_column' => 'menu_order'));
 }
 
 ?>
