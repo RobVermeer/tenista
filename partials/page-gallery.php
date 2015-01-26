@@ -9,7 +9,7 @@
 		<?php if( $images ) : ?>
 			<div class="row gallery">
 				<?php foreach( $images as $img ) : ?>
-					<?php $thumbnail = wp_get_attachment_image_src($img->ID, 'thumbnail-wide'); ?>
+					<?php $thumbnail = wp_get_attachment_image_src($img->ID, 'thumbnail-small'); ?>
 					<?php $full = wp_get_attachment_image_src($img->ID, 'full'); ?>
 					<div class="col-xs-6 col-md-4">
 						<a href="<?php echo $full[0]; ?>" rel="gallery" title="<?php echo $img->post_title; ?>"><img src="<?php echo $thumbnail[0]; ?>" class="img-responsive"></a>
