@@ -574,6 +574,10 @@ tr.italic td {
 	margin: .7em 0;
 }
 
+.content-album .page-nav .icon-bar {
+	background-color: #fff;
+}
+
 .content-album .page-nav a {
 	color: #ccc;
 	border-color: #555;
