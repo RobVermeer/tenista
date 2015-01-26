@@ -213,7 +213,17 @@ function get_the_children() {
 		
 	$page_id = (isset($post->post_parent) && $post->post_parent ? $post->post_parent : $post->ID);
 	
-	return get_pages(array('child_of' => $page_id, 'sort_column' => 'menu_order'));
+	$args = array('child_of' => $page_id);
+	
+	if( is_page_template('photo-album.php') ) {
+		$args['sort_column'] = 'menu_order';
+		$args['sort_order'] = 'DESC';
+	} else {
+		$args['sort_column'] = 'menu_order';
+		$args['sort_order'] = 'ASC';
+	}
+	
+	return get_pages($args);
 }
 
 ?>
