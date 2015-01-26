@@ -1,5 +1,8 @@
 <?php if( has_children() ) : ?>
 	<nav class="col-xs-12 col-sm-3 page-nav">
+		<?php if( is_page_template('photo-album.php') ) : ?>
+			<h3><?php _e('Fotoalbums:', 'rm'); ?></h3>
+		<?php endif; ?>
 		<div class="button-wrap">
 			<button class="navbar-toggle collapsed btn btn-default visible-xs" type="button" data-toggle="collapse" data-target=".page-nav li.collapse">
 				<span class="icon-bar"></span>
