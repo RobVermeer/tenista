@@ -623,10 +623,11 @@ tr.italic td {
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	margin: 0;
-	padding: 10px 15px;
 }
 
 .gallery-item h4 a {
+	padding: 10px 15px;
+	display: block;
 	color: #fff;
 }
 /* End Foto albums */
