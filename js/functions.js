@@ -21,13 +21,13 @@
 	
 	$(window).scroll(function(){ 
 		if (!$(".content-album")[0]) {
-			if ($(this).scrollTop() > 313) { 
+			if ($(this).scrollTop() > 323) { 
 				$('.page-nav ul').addClass('fixed'); 
 			} else { 
 				$('.page-nav ul').removeClass('fixed'); 
 			}
 		} else {
-			if ($(this).scrollTop() > 360) { 
+			if ($(this).scrollTop() > 363) { 
 				$('.page-nav ul').addClass('fixed'); 
 			} else { 
 				$('.page-nav ul').removeClass('fixed'); 
