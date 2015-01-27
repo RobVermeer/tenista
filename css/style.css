@@ -362,6 +362,7 @@ body {
 		color: #00008c;
 	}
 }
+
 .page-nav .button-wrap {
 position: relative;
 }
@@ -519,7 +520,6 @@ position: relative;
 
 .carousel {
 	margin-bottom: 15px;
-	/* border: 2px solid #00008c; */
 }
 /* End Home */
 
@@ -532,15 +532,18 @@ position: relative;
 	border: none !important;
 	padding: 0 0 15px !important;
 }
+
 .maps {
 	width: 100px;
 }
+
 .maps img {
 	width: 125px;
 	padding-right: 17px;
 	margin-right: 14px;
 	border-right: 1px solid #ccd;
 }
+
 .logo-adres {
 	float: right;
 	margin-left: 15px;
@@ -551,7 +554,7 @@ position: relative;
 tr.italic td {
 	font-style: italic;
 }
-/* End competitie */
+/* End Competitie */
 
 /* Forms */
 .form-signup {
@@ -563,6 +566,7 @@ tr.italic td {
 .content-album {
 	background-color: #333;
 	color: #fff;
+	margin-bottom: 30px;
 }
 
 .content-album a {
@@ -583,14 +587,14 @@ tr.italic td {
 	border-color: #555;
 }
 
-.content-album .page-nav .current-item a {
-	color: #fff;
-	background-color: #555;
-}
-
 .content-album .page-nav a:hover {
 	color: #fff;
 	background-color: #444;
+}
+
+.content-album .page-nav .current-item a {
+	color: #fff;
+	background-color: #555;
 }
 
 .content-album .form {
@@ -658,7 +662,6 @@ tr.italic td {
 #cboxLoadingGraphic{background:url(../img/loading.gif) no-repeat center center;}
 
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
-
 #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
 #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
