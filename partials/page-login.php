@@ -6,7 +6,7 @@
 		<input class="form-control" type="password" name="post_password" id="pwbox-<?php echo $id; ?>" placeholder="<?php _e('Wachtwoord', 'rm'); ?>">
 	</div>
 	<div class="form-group">
-		<input class="btn btn-default" type="submit" value="<?php _e('Inloggen', 'rm'); ?>">
+		<input class="btn btn-primary" type="submit" value="<?php _e('Inloggen', 'rm'); ?>">
 	</div>
 	<?php if( wp_get_referer() == get_permalink() && isset ($_COOKIE[ 'wp-postpass_' . COOKIEHASH ]) ) : ?>
 		<div class="alert alert-danger alert-dismissible fade in">
