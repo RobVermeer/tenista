@@ -6,7 +6,7 @@ $news = new WP_Query(array(
 	'meta_query' => array(
 		array(
 			'key' => 'featured',
-			'value' => array(1),
+			'value' => 1,
 			'compare' => 'NOT EXISTS'
 		)
 	)
