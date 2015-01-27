@@ -614,6 +614,10 @@ tr.italic td {
 	margin-bottom: 30px;
 }
 
+.gallery-item:hover, .gallery img:hover {
+	outline: 3px solid #444;
+}
+
 .gallery-item {
 	position: relative;
 }
@@ -629,10 +633,11 @@ tr.italic td {
 	margin: 0;
 }
 
-.gallery-item h4 a {
+.gallery-item h4 a, .gallery-item h4 a:hover {
 	padding: 10px 15px;
 	display: block;
 	color: #fff;
+	text-decoration: none; 
 }
 /* End Foto albums */
 
