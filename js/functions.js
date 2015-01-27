@@ -20,10 +20,18 @@
 	});
 	
 	$(window).scroll(function(){ 
-		if ($(this).scrollTop() > 313) { 
-			$('.page-nav ul').addClass('fixed'); 
-		} else { 
-			$('.page-nav ul').removeClass('fixed'); 
+		if (!$(".content-album")[0]) {
+			if ($(this).scrollTop() > 313) { 
+				$('.page-nav ul').addClass('fixed'); 
+			} else { 
+				$('.page-nav ul').removeClass('fixed'); 
+			}
+		} else {
+			if ($(this).scrollTop() > 353) { 
+				$('.page-nav ul').addClass('fixed'); 
+			} else { 
+				$('.page-nav ul').removeClass('fixed'); 
+			}		
 		}
 	});
 	
