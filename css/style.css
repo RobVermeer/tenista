@@ -602,8 +602,32 @@ tr.italic td {
 	padding-right: 30px;
 }
 
+.gallery {
+	margin-top: 40px;
+}
+
 .gallery .col-xs-6 {
 	margin-bottom: 30px;
+}
+
+.gallery-item {
+	position: relative;
+}
+
+.gallery-item h4 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	margin: 0;
+	padding: 10px 15px;
+}
+
+.gallery-item h4 a {
+	color: #fff;
 }
 /* End Foto albums */
 
