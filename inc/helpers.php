@@ -216,7 +216,7 @@ function get_the_children() {
 	$args = array('child_of' => $page_id);
 	
 	if( is_page_template('photo-album.php') ) {
-		$args['sort_column'] = 'menu_order';
+		$args['sort_column'] = 'post_date';
 		$args['sort_order'] = 'DESC';
 	} else {
 		$args['sort_column'] = 'menu_order';
