@@ -27,7 +27,7 @@
 				$('.page-nav ul').removeClass('fixed'); 
 			}
 		} else {
-			if ($(this).scrollTop() > 353) { 
+			if ($(this).scrollTop() > 360) { 
 				$('.page-nav ul').addClass('fixed'); 
 			} else { 
 				$('.page-nav ul').removeClass('fixed'); 
