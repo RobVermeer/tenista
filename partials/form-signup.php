@@ -141,6 +141,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-9 col-sm-offset-3">
+				<input type="text" name="website" id="website" class="hide">
 				<input type="hidden" name="action" value="form_signup">
 				<button class="btn btn-primary" type="submit">Verzenden</button>
 				<button class="btn btn-secondary" type="reset">Reset</button>

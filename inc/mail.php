@@ -2,6 +2,8 @@
 
 function send_signup_mail() {
 	if( isset($_POST['action']) && $_POST['action'] == 'form_signup' ) {
+		if( isset($_POST['website']) && $_POST['website'] ) return false;
+		
 		$to = get_bloginfo('admin_email');
 		$subject = __('[Tenista] Nieuwe inschrijving', 'rm');
 		$headers = null;
