@@ -641,6 +641,28 @@ tr.italic td {
 }
 /* End Foto albums */
 
+/* Auction */
+.page-template-auction .entry {
+	min-height: 0;
+}
+
+.form-auction {
+	margin-bottom: 50px;
+}
+
+.form-auction input, .form-auction select {
+	margin-bottom: 15px;
+}
+
+.tabs-auction {
+	margin-bottom: 50px;
+}
+
+.tabs-auction .tab-content {
+	padding-top: 30px;
+}
+/* End Auction */
+
 /* Colorbox */
 #colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
 #cboxWrapper {max-width:none;}
