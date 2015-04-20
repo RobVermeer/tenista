@@ -146,21 +146,26 @@ body {
 	display: block;
 }
 
+/* Toernooi tab achtergrond kleur geven
+.menu a:nth-child(2) {
+	background: rgb(186, 49, 0);
+} */
+
 @media (min-width: 768px) {
 	.header .menu a {
-		padding: 7px 16px;
+		padding: 7px 9px; /*16 */
 	}
 }
 
 @media (min-width: 992px) {
 	.header .menu a {
-		padding: 7px 25px;
+		padding: 7px 16px; /* 25 */
 	}
 }
 
 @media (min-width: 1200px) {
 	.header .menu a {
-		padding: 7px 30px;
+		padding: 7px 22px; /* 30 */
 	}
 }
 
