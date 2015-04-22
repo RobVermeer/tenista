@@ -143,6 +143,7 @@ function confirm_new_bid() {
 
 			delete_post_meta($post_id, 'hash');
 
+			$court = get_post_meta($post_id, 'court', true);
 			$last_bid = get_last_bid($court, $post_id);
 			if( $last_bid ) {
 				send_notification('new_over_bid', array(
