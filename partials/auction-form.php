@@ -1,6 +1,8 @@
 <div class="col-xs-12">
-	<?php if( isset($_GET['msg']) && $_GET['msg'] == 'success' ) : ?>
-		<div class="alert alert-success" role="alert"><strong>Bedankt!</strong> Je kunt je bod bevestigen via de zojuist verzonden e-mail! (Kijk eventueel ook in je spambox)</div>
+	<?php if( isset($_GET['msg']) && $_GET['msg'] == 'pending' ) : ?>
+		<div class="alert alert-info" role="alert"><strong>Bedankt!</strong> Je kunt je bod bevestigen via de zojuist verzonden e-mail! (Kijk eventueel ook in je spambox)</div>
+	<?php elseif( isset($_GET['msg']) && $_GET['msg'] == 'success' ) : ?>
+		<div class="alert alert-success" role="alert"><strong>Bedankt!</strong> Je bod staat genoteerd!</div>
 	<?php endif; ?>
 	<form class="form-horizontal form-auction" method="post">
 		<div class="form-group">

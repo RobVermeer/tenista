@@ -54,7 +54,7 @@ function get_bid_options( $court ) {
 	return range(($b + 5), ($b + 25), 5);
 }
 
-function get_last_bid( $court ) {
+function get_last_bid( $court, $post_id ) {
 	$last_posts = get_posts(array(
 		'post_type' => 'auction',
 		'posts_per_page' => 1,
@@ -64,6 +64,9 @@ function get_last_bid( $court ) {
 				'value' => array($court),
 				'compare' => 'IN',
 			)
+		),
+		'post__not_in' => array(
+			$post_id
 		),
 		'order' => 'DESC'
 	));
@@ -85,17 +88,20 @@ function add_new_bid() {
 		$options = get_bid_options($court);
 
 		if( $name && is_email($email) && $court && in_array($bid, $options) ) {
-			$last_bid = get_last_bid($court);
-			
 			$post_id = wp_insert_post(array(
 				'post_title' => 'Bod van ' . $name . ' op baan ' . $court,
 				'post_type' => 'auction',
-				'post_status' => 'publish'
+				'post_status' => 'draft'
 			));
+
+			$hash = md5(strtotime('now'));
+
 			add_post_meta($post_id, 'name', $name);
 			add_post_meta($post_id, 'email', $email);
 			add_post_meta($post_id, 'court', $court);
 			add_post_meta($post_id, 'bod', $bid);
+			add_post_meta($post_id, 'hash', $hash);
+			add_post_meta($post_id, 'page_id', $id);
 
 			send_notification('new_bid_admin', array(
 				'name' => $name,
@@ -104,15 +110,14 @@ function add_new_bid() {
 				'email' => $email
 			));
 
-			if( $last_bid ) {
-				send_notification('new_over_bid', array(
-					'name' => $name,
-					'baan' => $court,
-					'bod' => $bid
-				), $last_bid);
-			}
+			send_notification('confirm_bid', array(
+				'name' => $name,
+				'baan' => $court,
+				'bod' => $bid,
+				'url' => get_permalink($id) . '?confirm=' . $hash
+			), $email);
 
-			wp_redirect(get_permalink($id) . '?msg=success');
+			wp_redirect(get_permalink($id) . '?msg=pending');
 			exit;
 		} else {
 			wp_redirect(get_permalink($id) . '?msg=error');
@@ -121,6 +126,39 @@ function add_new_bid() {
 	}
 }
 add_action('init', 'add_new_bid');
+
+function confirm_new_bid() {
+	if( isset($_GET['confirm']) && $_GET['confirm'] ) {
+		$hash = $_GET['confirm'];
+
+		$post_ids = get_post_ids_by_meta_value('hash', $hash);
+
+		if( isset($post_ids) && $post_ids ) {
+			$post_id = $post_ids[0];
+
+			$post_id = wp_update_post(array(
+				'ID' => $post_id,
+				'post_status' => 'publish'
+			));
+
+			delete_post_meta($post_id, 'hash');
+
+			$last_bid = get_last_bid($court, $post_id);
+			if( $last_bid ) {
+				send_notification('new_over_bid', array(
+					'name' => $name,
+					'baan' => $court,
+					'bod' => $bid
+				), $last_bid);
+			}
+
+			$id = get_post_meta($post_id, 'page_id', true);
+			wp_redirect(get_permalink($id) . '?msg=success');
+			exit;
+		}
+	}
+}
+add_action('init', 'confirm_new_bid');
 
 function add_auction_post_type() {
 	$args = array(
