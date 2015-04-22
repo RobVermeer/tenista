@@ -210,7 +210,7 @@ register_field_group(array (
 			'name' => 'new_bid_admin_body',
 			'prefix' => '',
 			'type' => 'textarea',
-			'instructions' => 'Tags die je kan gebruiken: [name] [bod] [email]',
+			'instructions' => 'Tags die je kan gebruiken: [name] [bod] [email] [baan]',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array (
@@ -232,7 +232,7 @@ register_field_group(array (
 			'name' => 'new_bid_admin_recipients',
 			'prefix' => '',
 			'type' => 'text',
-			'instructions' => '',
+			'instructions' => 'Komma gescheiden voor meerdere mailadressen',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array (
@@ -314,7 +314,7 @@ register_field_group(array (
 			'name' => 'new_over_bid_body',
 			'prefix' => '',
 			'type' => 'textarea',
-			'instructions' => 'Tags die je kan gebruiken: [name] [bod]',
+			'instructions' => 'Tags die je kan gebruiken: [name] [bod] [baan]',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array (

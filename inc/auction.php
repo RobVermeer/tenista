@@ -100,12 +100,14 @@ function add_new_bid() {
 			send_notification('new_bid_admin', array(
 				'name' => $name,
 				'bod' => $bid,
+				'baan' => $court,
 				'email' => $email
 			));
 
 			if( $last_bid ) {
 				send_notification('new_over_bid', array(
 					'name' => $name,
+					'baan' => $court,
 					'bod' => $bid
 				), $last_bid);
 			}
