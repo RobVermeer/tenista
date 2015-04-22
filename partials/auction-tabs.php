@@ -148,7 +148,7 @@ $set = array(0, 0, 0, 0);
 						</div>
 						<div class="col-xs-12 col-sm-4">
 							<div class="chart-container">
-								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(1, count($data))); ?>]" data-set="[<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
+								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(0, count($data))); ?>]" data-set="[0,<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
 							</div>
 						</div>
 					</div>
@@ -177,7 +177,7 @@ $set = array(0, 0, 0, 0);
 						</div>
 						<div class="col-xs-12 col-sm-4">
 							<div class="chart-container">
-								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(1, count($data))); ?>]" data-set="[<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
+								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(0, count($data))); ?>]" data-set="[0,<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
 							</div>
 						</div>
 					</div>
@@ -206,7 +206,7 @@ $set = array(0, 0, 0, 0);
 						</div>
 						<div class="col-xs-12 col-sm-4">
 							<div class="chart-container">
-								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(1, count($data))); ?>]" data-set="[<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
+								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(0, count($data))); ?>]" data-set="[0,<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
 							</div>
 						</div>
 					</div>
@@ -235,7 +235,7 @@ $set = array(0, 0, 0, 0);
 						</div>
 						<div class="col-xs-12 col-sm-4">
 							<div class="chart-container">
-								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(1, count($data))); ?>]" data-set="[<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
+								<canvas class="chart" data-type="line" data-labels="[<?php echo implode(',', range(0, count($data))); ?>]" data-set="[0,<?php echo implode(',', $data); ?>]" width="400" height="400"></canvas>
 							</div>
 						</div>
 					</div>
