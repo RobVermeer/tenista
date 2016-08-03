@@ -10,7 +10,7 @@
 		<thead>
 			<tr>
 				<td style="width: 400px;">Gehele jaar:</td>
-				<td>€170</td>
+				<td>€150</td>
 			</tr>
 			<tr>
 				<td>Vanaf april:</td>
