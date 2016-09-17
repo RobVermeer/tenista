@@ -22,7 +22,7 @@
 	<?php do_action('after_body'); ?>
 	
 	<div class="fixed-bg"></div>
-	
+	<script language=JavaScript src=http://www1.sportadvertentie.nl/banners/abm.asp?z=1265></script>
 	<div class="container">
 		<div class="page-border-top"></div>
 		<div class="miniman">
